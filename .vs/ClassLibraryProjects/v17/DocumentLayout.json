@@ -1,0 +1,86 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\alice\\Desktop\\W2025\\COMP 367 - 002_DevOps Implementation\\Assignments\\Assignment 4\\301336105(Singca)Lab#4\\ClassLibraryProjects\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB9C04B7-5FBE-45B0-8EA1-6CEDB0D4FCCA}|ShowCase\\ShowCase.csproj|c:\\users\\alice\\desktop\\w2025\\comp 367 - 002_devops implementation\\assignments\\assignment 4\\301336105(singca)lab#4\\classlibraryprojects\\showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB9C04B7-5FBE-45B0-8EA1-6CEDB0D4FCCA}|ShowCase\\ShowCase.csproj|solutionrelative:showcase\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA619FB-2533-4C8A-97CB-198F5506B008}|StringLibrary\\StringLibrary.csproj|c:\\users\\alice\\desktop\\w2025\\comp 367 - 002_devops implementation\\assignments\\assignment 4\\301336105(singca)lab#4\\classlibraryprojects\\stringlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7DA619FB-2533-4C8A-97CB-198F5506B008}|StringLibrary\\StringLibrary.csproj|solutionrelative:stringlibrary\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7DA619FB-2533-4C8A-97CB-198F5506B008}|StringLibrary\\StringLibrary.csproj|c:\\users\\alice\\desktop\\w2025\\comp 367 - 002_devops implementation\\assignments\\assignment 4\\301336105(singca)lab#4\\classlibraryprojects\\stringlibrary\\stringlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{7DA619FB-2533-4C8A-97CB-198F5506B008}|StringLibrary\\StringLibrary.csproj|solutionrelative:stringlibrary\\stringlibrary.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1559671310:0:{83107a3e-496a-485e-b455-16ddb978e55e}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\alice\\Desktop\\W2025\\COMP 367 - 002_DevOps Implementation\\Assignments\\Assignment 4\\301336105(Singca)Lab#4\\ClassLibraryProjects\\ShowCase\\Program.cs",
+              "RelativeDocumentMoniker": "ShowCase\\Program.cs",
+              "ToolTip": "C:\\Users\\alice\\Desktop\\W2025\\COMP 367 - 002_DevOps Implementation\\Assignments\\Assignment 4\\301336105(Singca)Lab#4\\ClassLibraryProjects\\ShowCase\\Program.cs",
+              "RelativeToolTip": "ShowCase\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T18:36:11.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\alice\\Desktop\\W2025\\COMP 367 - 002_DevOps Implementation\\Assignments\\Assignment 4\\301336105(Singca)Lab#4\\ClassLibraryProjects\\StringLibrary\\Class1.cs",
+              "RelativeDocumentMoniker": "StringLibrary\\Class1.cs",
+              "ToolTip": "C:\\Users\\alice\\Desktop\\W2025\\COMP 367 - 002_DevOps Implementation\\Assignments\\Assignment 4\\301336105(Singca)Lab#4\\ClassLibraryProjects\\StringLibrary\\Class1.cs",
+              "RelativeToolTip": "StringLibrary\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-26T18:31:33.392Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "StringLibrary",
+              "DocumentMoniker": "C:\\Users\\alice\\Desktop\\W2025\\COMP 367 - 002_DevOps Implementation\\Assignments\\Assignment 4\\301336105(Singca)Lab#4\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
+              "RelativeDocumentMoniker": "StringLibrary\\StringLibrary.csproj",
+              "ToolTip": "C:\\Users\\alice\\Desktop\\W2025\\COMP 367 - 002_DevOps Implementation\\Assignments\\Assignment 4\\301336105(Singca)Lab#4\\ClassLibraryProjects\\StringLibrary\\StringLibrary.csproj",
+              "RelativeToolTip": "StringLibrary\\StringLibrary.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-03-26T18:32:30.999Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

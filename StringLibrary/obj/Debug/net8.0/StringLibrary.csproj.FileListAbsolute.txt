@@ -1,0 +1,11 @@
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\bin\Debug\net8.0\StringLibrary.deps.json
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\bin\Debug\net8.0\StringLibrary.dll
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\bin\Debug\net8.0\StringLibrary.pdb
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.AssemblyInfoInputs.cache
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.AssemblyInfo.cs
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.csproj.CoreCompileInputs.cache
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.dll
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\refint\StringLibrary.dll
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\StringLibrary.pdb
+C:\Users\alice\Desktop\W2025\COMP 367 - 002_DevOps Implementation\Assignments\Assignment 4\301336105(Singca)Lab#4\ClassLibraryProjects\StringLibrary\obj\Debug\net8.0\ref\StringLibrary.dll
