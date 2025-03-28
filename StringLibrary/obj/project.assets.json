@@ -20,6 +20,7 @@
       "outputPath": "C:\\Users\\alice\\Desktop\\W2025\\COMP 367 - 002_DevOps Implementation\\Assignments\\Assignment 4\\301336105(Singca)Lab#4\\ClassLibraryProjects\\StringLibrary\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+        "C:\\Users\\alice\\Desktop\\W2025\\COMP 367 - 002_DevOps Implementation\\Assignments\\Assignment 4\\301336105(Singca)Lab#4\\ClassLibraryProjects\\NuGet.Config",
         "C:\\Users\\alice\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -27,9 +28,8 @@
         "net8.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
-        "https://api.nuget.org/v3/index.json": {}
+        "https://pkgs.dev.azure.com/asingcadevops/_packaging/asingcadevops/nuget/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
