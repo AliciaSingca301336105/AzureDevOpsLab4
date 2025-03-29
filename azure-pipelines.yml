@@ -2,7 +2,7 @@ trigger:
 - main
 
 pool:
-  name: 'Self-Hosted'  # Use a self-hosted agent as per your assignment
+  name: Default  # Use a self-hosted agent as per your assignment
 
 variables:
   solution: '**/*.sln'
