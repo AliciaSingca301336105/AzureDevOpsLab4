@@ -1,34 +1,42 @@
-# ASP.NET
-# Build and test ASP.NET projects.
-# Add steps that publish symbols, save build artifacts, deploy, and more:
-# https://docs.microsoft.com/azure/devops/pipelines/apps/aspnet/build-aspnet-4
-
 trigger:
-- main
+- master
 
 pool:
-  name: Default   
-
-variables:
-  solution: '**/*.sln'
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
+  name: 'Default'  # Points to the self-hosted agent pool
 
 steps:
-- task: NuGetToolInstaller@1
-
-- task: NuGetCommand@2
+- task: UseDotNet@2
+  displayName: 'Install .NET Core SDK'
   inputs:
-    restoreSolution: '$(solution)'
+    version: '8.x'  # Ensures .NET 8 is targeted
+    installationPath: 'C:\sdk'
 
-- task: VSBuild@1
-  inputs:
-    solution: '$(solution)'
-    msbuildArgs: '/p:DeployOnBuild=true /p:WebPublishMethod=Package /p:PackageAsSingleFile=true /p:SkipInvalidConfigurations=true /p:PackageLocation="$(build.artifactStagingDirectory)"'
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+# Optional: Verify if .NET SDK is correctly installed
+- script: |
+    dotnet --version
+  displayName: 'Verify .NET SDK Installation'
 
-- task: VSTest@2
+- task: DotNetCoreCLI@2
+  displayName: 'Restore dependencies'
   inputs:
-    platform: '$(buildPlatform)'
-    configuration: '$(buildConfiguration)'
+    command: 'restore'
+    projects: '*/.csproj'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Build project'
+  inputs:
+    command: 'build'
+    projects: '*/.csproj'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Pack NuGet package'
+  inputs:
+    command: 'pack'
+    arguments: '--output $(Build.ArtifactStagingDirectory)'
+
+- task: DotNetCoreCLI@2
+  displayName: 'Push NuGet package to Azure Artifacts Feed'
+  inputs:
+    command: 'push'
+    arguments: '--source https://pkgs.dev.azure.com/asingcadevops/AzureDevOpsLab4/_packaging/StringExtensionsFeed/nuget/v3/index.json --api-key $(System.AccessToken)'
+    packagesToPush: '$(Build.ArtifactStagingDirectory)/*.nupkg'
